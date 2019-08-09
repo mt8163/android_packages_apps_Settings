@@ -398,4 +398,6 @@
 
     <!-- Label for settings shortcut: mobile network -->
     <string name="network_settings_shortcut_title">Mobile network</string>
+        <!-- From Q Beta 5 -->
+    <string name="previous_connected_see_all">See all</string>
 </resources>
