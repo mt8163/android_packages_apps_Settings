@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="advanced_reboot_title">Napredni vnovičen zagon</string>
-    <string name="advanced_reboot_summary">Ko je odklenjeno, v meni za izklop vključi možnosti za vnovičen zagon v obnovitev ali zagonski nalagalnik</string>
+    <string name="advanced_reboot_summary">Ko je odklenjeno, v meni izklopa vključi možnosti za vnovičen zagon v obnovitev ali zagonski nalagalnik</string>
     <string name="app_ops_permissions_allowed">Dovoljeno</string>
     <string name="app_ops_permissions_ignored">Prezrto</string>
     <string name="app_ops_permissions_always_ask">Vedno vprašaj</string>
@@ -121,7 +121,7 @@
     <string name="app_ops_summaries_use_media_volume">nadzorovanje glasnosti predstavnosti</string>
     <string name="app_ops_summaries_use_notification_volume">nadzorovanje glasnosti obvestila</string>
     <string name="app_ops_summaries_use_ring_volume">nadzorovanje glasnosti zvonjenja</string>
-    <string name="app_ops_summaries_use_vibrate">uporaba haptičnega zaznavanja</string>
+    <string name="app_ops_summaries_use_vibrate">uporaba haptičnega odziva</string>
     <string name="app_ops_summaries_use_voice_volume">nadzorovanje glasnosti klica</string>
     <string name="app_ops_summaries_wifi_change">spreminjanje stanja Wi-Fi</string>
     <string name="app_ops_summaries_write_external_storage">pisanje na zunanji pomnilnik</string>
@@ -207,7 +207,7 @@
     <string name="app_ops_labels_use_media_volume">Nadzorovanje glasnosti predstavnosti</string>
     <string name="app_ops_labels_use_notification_volume">Nadzorovanje glasnosti obvestila</string>
     <string name="app_ops_labels_use_ring_volume">Nadzorovanje glasnosti zvonjenja</string>
-    <string name="app_ops_labels_use_vibrate">Uporaba haptičnega zaznavanja</string>
+    <string name="app_ops_labels_use_vibrate">Uporaba haptičnega odziva</string>
     <string name="app_ops_labels_use_voice_volume">Nadzorovanje glasnosti klica</string>
     <string name="app_ops_labels_wifi_change">Spreminjanje stanja Wi-Fi</string>
     <string name="app_ops_labels_write_external_storage">Pisanje na zunanji pomnilnik</string>
@@ -226,13 +226,13 @@
     <string name="adb_over_network_summary">Omogoči razhroščevanje TCP/IP prek omrežnih vmesnikov (Wi\u2011Fi, omrežij USB). Ta nastavitev se ob vnovičnem zagonu ponastavi</string>
     <string name="adb_over_network_warning">OPOZRILO: Ko je ADB prek omrežja omogočen, je vaš telefon ranljiv za vdore iz vseh povezanih omrežij! \n\nTo značilnost uporabljajte samo, ko ste povezani na zaupanja vredna omrežja.\n\nAli res želite omogočiti to značilnost?</string>
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korak pred omogočanjem nastavitev za razvijalce.</item>
-        <item quantity="two">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> koraka pred omogočanjem nastavitev za razvijalce.</item>
-        <item quantity="few">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korake pred omogočanjem nastavitev za razvijalce.</item>
-        <item quantity="other">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korakov pred omogočanjem nastavitev za razvijalce.</item>
+        <item quantity="one">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korak pred omogočenjem nastavitev za razvijalce.</item>
+        <item quantity="two">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> koraka pred omogočenjem nastavitev za razvijalce.</item>
+        <item quantity="few">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korake pred omogočenjem nastavitev za razvijalce.</item>
+        <item quantity="other">Zdaj ste <xliff:g id="step_count">%1$d</xliff:g> korakov pred omogočenjem nastavitev za razvijalce.</item>
     </plurals>
     <string name="show_dev_on_cm">Omogočili ste nastavitve za razvijalce!</string>
-    <string name="show_dev_already_cm">Ni potrebe, ste že omogočili nastavitve za razvijalce.</string>
+    <string name="show_dev_already_cm">Ni treba, ste že omogočili nastavitve za razvijalce.</string>
     <string name="lineagelicense_title">Pravna obvestila LineageOS</string>
     <string name="status_bar_double_tap_to_sleep_title">Tap za spanje</string>
     <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja ali zaklenjen zaslon, da izklopite zaslon</string>
@@ -244,15 +244,15 @@
     <string name="security_settings_fingerprint_sensor_location_left">levi strani</string>
     <string name="security_settings_fingerprint_sensor_location_right">desni strani</string>
     <string name="device_hostname">Gostiteljsko ime naprave</string>
-    <string name="increasing_ring_volume_option_title">Povečanje glasnosti zvonenja</string>
+    <string name="increasing_ring_volume_option_title">Naraščajoča glasnost zvonjenja</string>
     <string name="increasing_ring_min_volume_title">Začetna glasnost</string>
     <string name="increasing_ring_ramp_up_time_title">Čas povečanja</string>
     <string name="volume_link_notification_title">Poveži glasnosti zvonjenja in obvestil</string>
     <string name="kill_app_longpress_back">Gumb Nazaj uniči aplikacijo</string>
-    <string name="kill_app_longpress_back_summary">Uniči aplikacijo v ospredju z dolgim pritiskom na gumb Nazaj</string>
+    <string name="kill_app_longpress_back_summary">Uniči aplikacijo v ospredju s pridržanjem gumba Nazaj</string>
     <string name="development_tools_title">Razvojna orodja</string>
     <string name="lockscreen_media_art_title">Prikaži naslovnico večpredstavnosti</string>
-    <string name="lockscreen_visualizer_title">Prikaži predočilnik glasbe</string>
+    <string name="lockscreen_visualizer_title">Prikaži vizualizatorja glasbe</string>
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">onemogočeno</string>
     <string name="sim_missing">manjka ali je poškodovana</string>
